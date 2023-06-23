@@ -44,6 +44,7 @@ const contact = {
 };
 // Création de la liste dans le doc HTML
 	const newContact = document.createElement('li');
+	
 	newContact.innerHTML = `
 	    <div class = "contact-info">
 	    <img src= "${contact.image}" alt="${contact.nom} ${contact.prenom}">
